@@ -1,0 +1,90 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  
+  html{font-size: 62.5%;
+       background-color: black;}
+  
+  #logo{width: 100px;
+        height: 100px;
+       }
+  
+  .header{display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color: aqua;
+         }
+  
+  .nav{flex: 1;
+       text-align: center;
+       font-family: Calibri;
+       font-size: large;
+      }
+  
+  .nav:hover{background-color: blue;
+             color: white;
+             cursor: pointer;
+            }
+  
+  .search{display: flex;
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10px;
+          }
+  
+  .img-container{display: inline-block;
+                 position: relative;
+                 width: 400px;
+                 height: 400px;
+                 margin: 8px;
+                 }
+  
+  .img-container img{display: block;
+                     width: 100%;
+                     height: 100%;
+                    }
+  
+  .img-container a{position: absolute;
+                   top: 50%;
+                   left: 50%;
+                   bottom: 50%;
+                   right: 50%;
+                   transform: translate(-50%,-50%);
+                   background-color: rgba(255,255,255,0.8);
+                   text-align:center;
+                   font-family: Calibri;
+                   font-size: x-large;
+                   padding: 200px;
+                   visibility: hidden;
+                  }
+  
+  .img-container:hover a{visibility: visible;
+                         color: black;
+                        }
+  
+  .footer{display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+         }
+  
+  .fnav{flex: 1;
+        text-align: center;
+        font-family: Calibri;
+        font-size: large;
+        color: white;
+       }
+  
+  .fnav:hover{color: red;
+              cursor: pointer;
+             }
+  
+  h1{margin-top: 20px;
+     margin-bottom: 10px;
+     color: orangered;
+     font-family: Calibri;
+    }
+  
